@@ -8,7 +8,7 @@ public class CamelRoute extends RouteBuilder {
     public void configure() throws Exception {
         from("direct:input").routeId("Test")
                 .log("Received ==> ${body}")
-                .transform().simple("Hello ${body.name} ! How are you?")
+                .transform().simple("Holla ${body.name} ! How are you? I am from Camel")
         .end();
     }
 }
