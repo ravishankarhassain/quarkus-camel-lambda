@@ -1,8 +1,16 @@
-# code-with-quarkus Project
+# quarkus-camel-lambda Project
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This project uses the following fraemwork 
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+ * Quarkus - The Supersonic Subatomic Java Framework 
+ * Apache Camel -The Swiss Army Knife of Enterprise Application Integration for integrating heterogeneous systems
+ * AWS Lambda - Event-driven, serverless computing platform provided by Amazon as a part of Amazon Web Services
+
+If you want to learn more about 
+
+* Quarkus - please visit its website: https://quarkus.io/ 
+* Apache Camel - please visit its website: https://camel.apache.org/
+* AWS Lambda - please visit its website: https://aws.amazon.com/lambda/
 
 ## Running the application in dev mode
 
@@ -48,12 +56,13 @@ If you want to learn more about building native executables, please consult http
 ## Related Guides
 
 - AWS Lambda ([guide](https://quarkus.io/guides/amazon-lambda)): Write AWS Lambda functions
+- Apache camel ([guide](https://quarkus.io/guides/camel)): Write Apache Camel route 
 
 ## Provided Code
 
 ### Amazon Lambda Integration example
 
-This example contains a Quarkus Greeting Lambda ready for Amazon.
+This example contains a sample Greeter service build using Quarkus & Camel which can be deployed in Amazon Lambda as function.
 
 [Related guide section...](https://quarkus.io/guides/amazon-lambda)
 
