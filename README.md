@@ -1,6 +1,6 @@
 # quarkus-camel-lambda Project
 
-This project uses the following fraemwork 
+This project uses the following framework 
 
  * **Quarkus** - *The Supersonic Subatomic Java Framework*
  * **Apache Camel** - *The Swiss Army Knife of Enterprise Application Integration for integrating heterogeneous systems*
