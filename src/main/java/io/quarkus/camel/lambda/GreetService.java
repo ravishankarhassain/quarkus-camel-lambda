@@ -1,10 +1,12 @@
 package io.quarkus.camel.lambda;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
 
-@Named("greetService")
 @ApplicationScoped
+@RegisterForReflection
 public class GreetService {
 
     public String greet(String name){

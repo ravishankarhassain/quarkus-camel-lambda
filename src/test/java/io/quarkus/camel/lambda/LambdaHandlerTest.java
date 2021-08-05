@@ -14,7 +14,6 @@ public class LambdaHandlerTest {
         Person in = new Person();
         in.setName("Stu");
         String out = LambdaClient.invoke(String.class, in);
-        Assertions.assertEquals("Holla Stu ! How are you? I am from Camel", out);
+        Assertions.assertEquals("Hello Stu ! How are you? from GreetService", out);
     }
-
 }

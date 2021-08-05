@@ -15,17 +15,10 @@ public class LambdaHandler implements RequestHandler<Person, String> {
     @Inject
     CamelContext camelContext;
 
-    @Inject
-    GreetService greetService;
-
     @Override
     public String handleRequest(Person input, Context context) {
         LambdaLogger logger = context.getLogger();
-        if(camelContext != null){
-            logger.log("Calling Camel Route :)");
-            return camelContext.createProducerTemplate().requestBody("direct:input", input, String.class);
-        }
-        logger.log("Camel Context is Null :(");
-        return greetService.greet(input.getName());
+        logger.log("Calling Camel Route :)");
+        return camelContext.createProducerTemplate().requestBody("direct:input", input, String.class);
     }
 }
