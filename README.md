@@ -90,7 +90,7 @@ If you want to learn more about building native executables, please consult http
 
 > :information_source: [Please click here for details on how to use these scripts](https://quarkus.io/guides/amazon-lambda#extra-build-generated-files)
 
-## Deploying the Quarkus JVM application to AWS Lambda Manually
+## Deploying the Quarkus JVM application to AWS Lambda via AWS Web Console
 
 1. Go to AWS Web console and search for Lambda Service
  
@@ -130,7 +130,7 @@ io.quarkus.amazon.lambda.runtime.QuarkusStreamHandler::handleRequest
     ```shell script
     Hello Ravishankar ! How are you? from GreetService
     ```
-## Deploying the Quarkus Native executable to AWS Lambda Manually
+## Deploying the Quarkus Native executable to AWS Lambda via AWS Web Console
 
 **_NOTE:_** [Please ensure that you have built your Java code as Quarkus Native executable](#native)
 
