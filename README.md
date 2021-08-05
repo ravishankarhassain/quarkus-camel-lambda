@@ -180,4 +180,4 @@ io.quarkus.amazon.lambda.runtime.QuarkusStreamHandler::handleRequest
     ```
 
 ## JVM vs Native Results based on lambda execution logs & stats
-![JVM vs Native Results](results.jpg?raw=true "JVM vs Native Results")
+![JVM vs Native Results](results.png?raw=true "JVM vs Native Results")
