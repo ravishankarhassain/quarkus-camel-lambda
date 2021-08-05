@@ -88,7 +88,7 @@ If you want to learn more about building native executables, please consult http
 
 * sam.native.yaml - (optional) for use with sam cli and native local testing
 
-> :information_source: [Please click here for read the details on how to use these scripts](https://quarkus.io/guides/amazon-lambda#extra-build-generated-files)
+> :information_source: [Please click here for details on how to use these scripts](https://quarkus.io/guides/amazon-lambda#extra-build-generated-files)
 
 ## Deploying the Quarkus JVM application to AWS Lambda Manually
 
