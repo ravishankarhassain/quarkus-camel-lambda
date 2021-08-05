@@ -18,8 +18,6 @@ If you want to learn more about
 
 This example contains a sample Greeter service build using Quarkus & Camel which can be deployed into the Amazon Lambda as function.
 
-[Related guide section...](https://quarkus.io/guides/amazon-lambda)
-
 > :warning: **INCOMPATIBLE WITH DEV MODE**: Amazon Lambda Binding is not compatible with dev mode yet!
 
 ## Related Guides
