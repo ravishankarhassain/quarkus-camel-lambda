@@ -2,7 +2,7 @@
 
 This project uses the following framework 
 
- * **Quarkus** - *The Supersonic Subatomic Java Framework*
+ * **Quarkus** - *The Supersonic Subatomic Java Framework for building Cloud Native Applications*
  * **Apache Camel** - *The Swiss Army Knife of Enterprise Application Integration for integrating heterogeneous systems*
  * **AWS Lambda** - *Event-driven, serverless computing platform provided by Amazon as a part of Amazon Web Services*
 
