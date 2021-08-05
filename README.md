@@ -92,7 +92,7 @@ If you want to learn more about building native executables, please consult http
 
 > :information_source: [Please click here for read the details on how to use these scripts](https://quarkus.io/guides/amazon-lambda#extra-build-generated-files)
 
-### Deploying the Quarkus JVM application to AWS Lambda Manually
+## Deploying the Quarkus JVM application to AWS Lambda Manually
 
 1. Go to AWS Web console and search for Lambda Service
  
@@ -118,19 +118,21 @@ If you want to learn more about building native executables, please consult http
 io.quarkus.amazon.lambda.runtime.QuarkusStreamHandler::handleRequest
 ```
 
-Now select the Test tab for executing a quick test. Copy paste the below json payload and hit Test 
+### Testing the Lamda
 
-```shell script
-{
-  "name": "Ravishankar"
-}
-```
-If everything goes fine you should get the below response along with the lambda execution logs & stats
+1. Now select the Test tab for executing a quick test. Copy paste the below json payload and hit Test 
 
-```shell script
-Hello Ravishankar ! How are you? from GreetService
-```
-### Deploying the Quarkus Native executable to AWS Lambda Manually
+    ```shell script
+    {
+     "name": "Ravishankar"
+    }
+    ```
+2. If everything goes fine you should get the below response along with the lambda execution logs & stats
+
+    ```shell script
+    Hello Ravishankar ! How are you? from GreetService
+    ```
+## Deploying the Quarkus Native executable to AWS Lambda Manually
 
 **_NOTE:_** [Please ensure that you have built your Java code as Quarkus Native executable](#native)
 
@@ -162,16 +164,20 @@ Hello Ravishankar ! How are you? from GreetService
 
 12. For Key enter `DISABLE_SIGNAL_HANDLERS`	& for Value enter `true`
 
-Now select the Test tab for executing a quick test. Copy paste the below json payload and hit Test 
+### Testing the Lamda
 
-```shell script
-{
-  "name": "Ravishankar"
-}
-```
-If everything goes fine you should get the below response along with the lambda execution logs & stats
+1. Now select the Test tab for executing a quick test. Copy paste the below json payload and hit Test 
 
-```shell script
-Hello Ravishankar ! How are you? from GreetService
-```
+    ```shell script
+    {
+     "name": "Ravishankar"
+    }
+    ```
+2. If everything goes fine you should get the below response along with the lambda execution logs & stats
 
+    ```shell script
+    Hello Ravishankar ! How are you? from GreetService
+    ```
+
+## JVM vs Native Results based on lambda execution logs & stats
+![JVM vs Native Results](results.jpg?raw=true "JVM vs Native Results")
